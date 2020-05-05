@@ -48,8 +48,8 @@ class G_drive:
     name_list=None
     show_list=None
     selected_student=None
-    # desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']),'Desktop')
-    desktop_path = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop') 
+    desktop_path = os.path.join(os.path.join(os.environ['USERPROFILE']),'Desktop')
+    # desktop_path = os.path.join(os.path.join(os.path.expanduser('~')), 'Desktop') 
 
     def __init__(self):
         self.drive_service = self.get_drive_service()
